@@ -1,0 +1,6 @@
+framework module YJNetworking {
+  umbrella header "YJNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

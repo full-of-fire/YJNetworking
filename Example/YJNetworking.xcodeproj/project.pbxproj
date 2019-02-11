@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3921D7C922111716005A7015 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3921D7C822111715005A7015 /* .gitkeep */; };
+		3921D7CC221117DB005A7015 /* YJApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3921D7CB221117DB005A7015 /* YJApiProxy.m */; };
+		3921D7D222114D07005A7015 /* YJBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3921D7D022114D07005A7015 /* YJBaseApi.m */; };
+		3921D7D62211534C005A7015 /* YJSendSmsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3921D7D52211534C005A7015 /* YJSendSmsApi.m */; };
 		3E97A10C1418F2BE0A5BE5DD /* Pods_YJNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3F29200B1F93EA7DBF71F9 /* Pods_YJNetworking_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +43,14 @@
 /* Begin PBXFileReference section */
 		01827D8BD6129BD59AF93825 /* Pods-YJNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJNetworking_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJNetworking_Example/Pods-YJNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		01E3BDA3856837F60A24DA71 /* Pods-YJNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJNetworking_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJNetworking_Tests/Pods-YJNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3921D7C822111715005A7015 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3921D7CA221117DB005A7015 /* YJApiProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJApiProxy.h; sourceTree = "<group>"; };
+		3921D7CB221117DB005A7015 /* YJApiProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJApiProxy.m; sourceTree = "<group>"; };
+		3921D7D022114D07005A7015 /* YJBaseApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBaseApi.m; sourceTree = "<group>"; };
+		3921D7D122114D07005A7015 /* YJBaseApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJBaseApi.h; sourceTree = "<group>"; };
+		3921D7D3221150EA005A7015 /* YJNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJNetworking.h; sourceTree = "<group>"; };
+		3921D7D42211534C005A7015 /* YJSendSmsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJSendSmsApi.h; sourceTree = "<group>"; };
+		3921D7D52211534C005A7015 /* YJSendSmsApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSendSmsApi.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +71,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		749A52D795D426415A1F25A6 /* YJNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJNetworking.podspec; path = ../YJNetworking.podspec; sourceTree = "<group>"; };
+		749A52D795D426415A1F25A6 /* YJNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJNetworking.podspec; path = ../YJNetworking.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F873A8F9EF2F0525F9A03AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8F873A8F9EF2F0525F9A03AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B6C7A8B9118CD59D49651F6 /* Pods-YJNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJNetworking_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJNetworking_Tests/Pods-YJNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F3F29200B1F93EA7DBF71F9 /* Pods_YJNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0C135953B465DD22A3588E /* Pods_YJNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED5F1B415EB8EAE4FCEDF885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED5F1B415EB8EAE4FCEDF885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2A4FB4A7FF1A47E2E35CC36 /* Pods-YJNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJNetworking_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJNetworking_Example/Pods-YJNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +107,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3921D7C622111715005A7015 /* YJNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3921D7C722111715005A7015 /* Classes */,
+			);
+			name = YJNetworking;
+			path = ../../YJNetworking;
+			sourceTree = "<group>";
+		};
+		3921D7C722111715005A7015 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3921D7C822111715005A7015 /* .gitkeep */,
+				3921D7CA221117DB005A7015 /* YJApiProxy.h */,
+				3921D7CB221117DB005A7015 /* YJApiProxy.m */,
+				3921D7D122114D07005A7015 /* YJBaseApi.h */,
+				3921D7D022114D07005A7015 /* YJBaseApi.m */,
+				3921D7D3221150EA005A7015 /* YJNetworking.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,8 +166,11 @@
 		6003F593195388D20070C39A /* Example for YJNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				3921D7C622111715005A7015 /* YJNetworking */,
 				6003F59C195388D20070C39A /* YJAppDelegate.h */,
 				6003F59D195388D20070C39A /* YJAppDelegate.m */,
+				3921D7D42211534C005A7015 /* YJSendSmsApi.h */,
+				3921D7D52211534C005A7015 /* YJSendSmsApi.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YJViewController.h */,
 				6003F5A6195388D20070C39A /* YJViewController.m */,
@@ -281,6 +318,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3921D7C922111716005A7015 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -385,10 +423,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YJNetworking_Example/Pods-YJNetworking_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/YJNetworking/YJNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +447,10 @@
 			files = (
 				6003F59E195388D20070C39A /* YJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YJViewController.m in Sources */,
+				3921D7CC221117DB005A7015 /* YJApiProxy.m in Sources */,
+				3921D7D222114D07005A7015 /* YJBaseApi.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3921D7D62211534C005A7015 /* YJSendSmsApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

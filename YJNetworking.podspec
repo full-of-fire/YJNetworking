@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJNetworking'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YJNetworking.'
+  s.version          = '1.0.0'
+  s.summary          = '离散型网络请求'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '离散型网络请求,减少网络请求crash'
 
   s.homepage         = 'https://github.com/full-of-fire/YJNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -38,5 +36,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'MJExtension'
 end
