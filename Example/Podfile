@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YJNetworking_Example' do
+  pod 'YJNetworking', :path => '../'
+
+  target 'YJNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
