@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJNetwork'
-  s.version          = '1.0.2'
+  s.version          = '1.0.1'
   s.summary          = '离散型网络请求'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YJNetwork/Classes/**/*'
+  s.source_files = 'YJNetworking/Classes/**/*'
   
   # s.resource_bundles = {
   #   'YJNetworking' => ['YJNetworking/Assets/*.png']
