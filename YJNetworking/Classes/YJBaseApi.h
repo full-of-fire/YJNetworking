@@ -51,7 +51,7 @@ extern NSString * const kApiMethodFileUpload;
 @end
 
 @interface YJBaseApi : NSObject
-@property (nonatomic, weak) NSObject<YJBaseApiDelegate> *child; //里面会调用到NSObject的方法，所以这里不用id
+@property (nonatomic, weak) id<YJBaseApiDelegate> child; //里面会调用到NSObject的方法，所以这里不用id
 - (void)loadDataSuccess:(void(^)(id result))success fail:(void(^)(NSError *error))fail;
 - (void)loadDataWithParams:(NSDictionary*)parmas success:(void(^)(id result))success fail:(void(^)(NSError *error))fail;
 @end

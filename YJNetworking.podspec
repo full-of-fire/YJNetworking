@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'YJNetworking'
-  s.version          = '1.0.0'
+  s.name             = 'YJNetwork'
+  s.version          = '1.0.1'
   s.summary          = '离散型网络请求'
 
 # This description is used to generate tags and improve search results.

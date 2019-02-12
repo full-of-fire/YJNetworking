@@ -9,6 +9,8 @@
 #import "YJViewController.h"
 #import <YJNetworking/YJNetworking.h>
 #import "YJSendSmsApi.h"
+
+#import <AudioUnit/AUAudioUnit.h>
 @interface YJViewController ()<YJApiProxyDelegate,YJApiProxyDataSource>
 @property (strong,nonatomic) YJSendSmsApi *smsApi;
 @end
